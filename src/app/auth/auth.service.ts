@@ -23,7 +23,9 @@ export class AuthService {
     tap((user) => (this.syncIsLoggedIn = user))
   );
 
-  constructor(private http: HttpClient, private router: Router) {}
+  constructor(private http: HttpClient, private router: Router) {
+    this.restoreUser();
+  }
 
   loginUrl: string = 'http://localhost:3000/login';
   registerUrl: string = 'http://localhost:3000/register';
