@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "email": "hisevo@mailinator.com",
+      "password": "$2a$10$O2TotysRmGGXalQhm70ZtesLzPkLFVpt.IlA9X3fms/4Pd.5qdtoa",
+      "nome": "Sed ea eiusmod esse ",
+      "id": 1
+    },
+    {
+      "email": "qimenoxa@mailinator.com",
+      "password": "$2a$10$z8FZ4g8JP8pefri1snMCeulWv0HpDhFN.J99R54AmzKvaQKRBRgNS",
+      "nome": "Sit occaecat est s",
+      "id": 2
+    },
+    {
+      "email": "heredosa@mailinator.com",
+      "password": "$2a$10$KhDCw7H5JXWVMR8Ruy4Ule80AVhU2wfxZfABbJChkQ/x9LlhkUXPq",
+      "nome": "Explicabo Pariatur",
+      "id": 3
+    }
+  ]
+}
