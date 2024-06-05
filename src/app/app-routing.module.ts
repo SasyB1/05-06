@@ -14,14 +14,14 @@ const routes: Routes = [
     path: 'profilo',
     loadChildren: () =>
       import('./pages/profilo/profilo.module').then((m) => m.ProfiloModule),
-    canActivate: [GuestGuard],
-    canActivateChild: [GuestGuard],
+    canActivate: [AuthGuard],
+    canActivateChild: [AuthGuard],
   },
   {
     path: 'auth',
     loadChildren: () => import('./auth/auth.module').then((m) => m.AuthModule),
-    canActivate: [AuthGuard],
-    canActivateChild: [AuthGuard],
+    canActivate: [GuestGuard],
+    canActivateChild: [GuestGuard],
   },
 ];
 
